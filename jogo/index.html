@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jogo da Velha</title>
+  <link rel="stylesheet" href="style.css" /> <!-- Importa o CSS -->
+</head>
+<body>
+  <main>
+    <h1>Jogo da Velha</h1> <!-- Título do jogo -->
+    <p id="status">Vez do jogador: X</p> <!-- Exibe o jogador da vez ou o resultado -->
+
+    <div class="grid" role="grid"> <!-- Grade do tabuleiro -->
+      <button class="cell" data-index="0"></button>
+      <button class="cell" data-index="1"></button>
+      <button class="cell" data-index="2"></button>
+      <button class="cell" data-index="3"></button>
+      <button class="cell" data-index="4"></button>
+      <button class="cell" data-index="5"></button>
+      <button class="cell" data-index="6"></button>
+      <button class="cell" data-index="7"></button>
+      <button class="cell" data-index="8"></button>
+    </div>
+
+    <button id="restart">Reiniciar</button> <!-- Botão de reinício -->
+  </main>
+
+  <script src="script.js"></script> <!-- Importa o JavaScript -->
+</body>
+</html>
